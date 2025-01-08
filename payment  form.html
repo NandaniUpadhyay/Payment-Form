@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+</head>
+<body>
+    <form action="">
+        <h1>payment form</h1>
+        <p><b>Required fields are followed by *</b></p>
+        <h2><i>contact information</i></h2>>
+       <p><i><h2>First Name: * <input type=" text" name="fname" required></i></h2></p>
+       <p><i><h2>Last  Name: * <input type=" text" name="lname" required></i></h2></p>
+       <fieldset>
+        <legend> <h2><i>Gender</h2></i></legend>
+        <p>
+        <h2><i>Male * <input type="radio" name="Gender" id="male"></h2></i>
+        <h2><i>Female * <input type="radio" name="Gender" id="female"></h2></i>
+         
+        </p>
+        </fieldset>
+        <p><h2><i>Address: * <textarea name="address" id="address" cols="95" rows="5"></textarea></i></h2></p>
+        <p><h2><i>Email1: * <input type="email" name="email" id="email"></i></h2></p>
+        <p><h2><i>Pincode: * <input type="number" name="Pincode" id="Pincode"></i></h2></p>
+        <h1>payment information</h1>
+        <p>Card Type: *
+            <select name="card_type" id="card_type">
+                <option value="SBI Card">SBI Card</option>
+                <option value="ICCI Card">ICCI Card</option>
+                <option value="DEBIT Card">DEBIT Card</option>
+                <option value="VISA">VISA</option>
+            </select>
+        </p>
+        <P>
+            Card Number: * <input type="number" name="card number" id="card number">
+        </P>
+        <p>
+             Expiration Date: * <input type="date"name="exp_date" id="exp_date">
+        </p>
+        <p>
+            CVV: * <input type="password" name="password" id="passowrd">
+        </p>
+        <input type="submit" value="Pay Now">
+         <p><h1>Submit/reset:
+          <select name="Submit/Reset" id="Submit/Reset">
+            <option value="Submit">Submit</option>
+            <option value="Reset">Reset</option>
+          </select>
+        </h1></p>
+     </form>
+</body>
+</html>
